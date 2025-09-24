@@ -1,3 +1,10 @@
+*{
+
+        font-family: sans-serif;
+
+}
+
+
 header{
     background-color: #ddd;
     width: 100%;
@@ -73,12 +80,12 @@ nav ul li a:hover{
 }
 
 .servicos{
-    width: 100%;
+    width: 95%;
     height: auto;
     display: flex;
     justify-content: space-around;
-    margin: 40px 0;
-    padding: 0 10px;
+    margin: 40px auto;
+    padding: 0 ;
     
 
 }
@@ -115,10 +122,17 @@ nav ul li a:hover{
 
 }
 
+
+/* cliente  */
 .cliente{
    
+    width: 95%;
+    height: auto;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    margin: 40px auto;
+    padding: 0px;
+    
  
 }
 .cliente img{
@@ -132,14 +146,14 @@ nav ul li a:hover{
     padding: 35px;
 }
 
-h2{
-    margin: auto;
-    font-family: sans-serif;
-    display: flex;
+ .texto h2{
+    font-size: 1.4rem;
+
 }
-p{
-    font-family: sans-serif;
-    
+ 
+ .texto p{
+ font-size: 1.2rem;    
+ line-height: 1.8rem;
 }
 
 .atendimento{
@@ -166,4 +180,15 @@ p{
     width: 50%;
     height: auto;
     object-fit: cover;
+}
+
+/* fale conosco */
+
+.fale-conosco{
+    background-color: #333;
+    color : #fff;
+    width: 100%;
+    height: auto;
+    padding: 40px 0 ;
+
 }
